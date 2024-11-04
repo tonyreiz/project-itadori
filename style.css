@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    background: url("https://giffiles.alphacoders.com/211/211793.gif")no-repeat;
+    background-size: cover;
+
+display: flex;    
+
+}
+
+
+h1{
+    color: #000000aa;
+   font-size:730%;
+  animation: mudarcor 4.35s infinite linear;
+}
+
+@keyframes mudarcor {
+    0% {
+        color: #000; 
+        
+    }
+
+    50%{
+        color: #c014149b;
+    }
+
+    100% {
+        color: #000;
+    }
+
+
+
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+p::first-letter{
+    color:#c01414b9 ;
+    font-size: 1.9rem;
+   
+}
+
+img{
+    width: 10rem;
+    display: block;
+    margin: auto;
+    border: 18px double #c01414b9;
+}
+
